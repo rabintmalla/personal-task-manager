@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Task Manager</h1>
+      <h1> Personal Task Manager </h1>
       <p className="app-subtitle">Stay on top of what needs doing.</p>
       <TaskForm onAddTask={addTask} />
       <FilterBar activeFilter={filter} onFilterChange={setFilter} />
